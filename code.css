@@ -1,0 +1,86 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.banner {
+    height: 645px;
+    width:400px;
+    background-color:#463946;
+    align-items: center;
+}
+
+.log {
+    height:35em ;
+    width: 50em;
+    background-color: black;
+    color:white;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.726);
+}
+
+.img_banner {
+    flex:1;
+    background-image: url(assets/images/art.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.login {
+    flex:1;
+    background-color: white;
+    align-items: center;
+}
+
+h1 {
+    color:  #463946;
+    margin-bottom: 40px;
+}
+
+
+input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.425);
+    background-color: #49494931;
+    font-size:15px
+}
+
+.botao_login {
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #463946;
+    border-radius: 20px;
+    width:150px ;
+    color: white;
+    border:2px solid #463946;
+    margin-bottom: 20px;
+    transition: 0.8s ease-in-out;
+}
+
+.botao_login:hover {
+    transform:scale(1.2);
+}
+
+.link img {
+    height: 30px;
+    width:30px;
+    margin-top: 20px;
+    margin-right:20px;
+    margin-left:20px;
+    transition: 0.8s ease-in-out;
+}
+
+.link img:hover{
+    transform: scale(1.8);
+}
+
+.link img:not(:hover) {
+    opacity: 0.5;
+}
+
+a {
+    margin-top: 20px;
+}
